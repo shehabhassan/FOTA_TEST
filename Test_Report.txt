@@ -1,0 +1,57 @@
+Test Report - Software Testing
+
+Project: Vehicle Control System
+Test Date: 2025-03-03
+Tester: Mahmoud Saad
+Environment: Windows 11, ESP32, SIM7600
+
+Test Summary:
+This test verifies the functionality of the vehicle control system, focusing on data communication, response time, and system stability.
+
+Test Cases Executed:
+1. Verify HTTP GET request from SIM7600 to GitHub server.
+   - Expected: Successfully receive and display firmware.txt content.
+   - Actual: Passed.
+
+2. Validate vehicle control neural network model's response time.
+   - Expected: Response time < 50ms.
+   - Actual: Passed (Response time = 42ms).
+
+3. Check sensor data logging accuracy.
+   - Expected: Sensor readings match actual conditions.
+   - Actual: Failed (Discrepancy in velocity readings).
+
+Defects Identified:
+- Bug #1023: Incorrect acceleration data in logs.
+- Bug #1045: Occasional timeout in HTTP request.
+
+Conclusion:
+The system is functional, but minor issues need resolution. Recommended bug fixes before deployment.
+
+End of Report.
+
+
+Test Summary:
+This test verifies the functionality of the vehicle control system, focusing on data communication, response time, and system stability.
+
+Test Cases Executed:
+1. Verify HTTP GET request from SIM7600 to GitHub server.
+   - Expected: Successfully receive and display firmware.txt content.
+   - Actual: Passed.
+
+2. Validate vehicle control neural network model's response time.
+   - Expected: Response time < 50ms.
+   - Actual: Passed (Response time = 42ms).
+
+3. Check sensor data logging accuracy.
+   - Expected: Sensor readings match actual conditions.
+   - Actual: Failed (Discrepancy in velocity readings).
+
+Defects Identified:
+- Bug #1023: Incorrect acceleration data in logs.
+- Bug #1045: Occasional timeout in HTTP request.
+
+Conclusion:
+The system is functional, but minor issues need resolution. Recommended bug fixes before deployment.
+
+End of Report.
